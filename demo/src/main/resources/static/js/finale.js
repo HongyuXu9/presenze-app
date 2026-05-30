@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // PER TEST: Se vuoi testare senza backend, decommenta la riga sotto e commenta il fetch
             // simulateSuccess(dataToSend, feedback);
 
-            fetch('https://presenze-app.onrender.com/presenze', {
+            fetch('/presenze', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
